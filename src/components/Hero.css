@@ -1,0 +1,15 @@
+.banner {
+    width: 100%;
+    height: 60vh;
+    /* background-color: palegreen; */
+    background-image: url('../assets/img/purse.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner p {
+    color: white;
+    font-size:2rem;
+    text-shadow: 3px 3px 3px #50250c,3px 3px 5px #50250c,3px 3px 10px #50250c,3px 3px 16px #50250c,3px 3px 28px #50250c;
+}

@@ -1,0 +1,46 @@
+.headerContainer {
+    display:flex;
+    justify-content: space-between;
+    /* font-family: "indieFlower"; */
+}
+.headerGroup {
+    display: flex;
+}
+.headerItem{
+    font-size: 1.5rem;
+    color: #50250c;
+    margin: 1rem 0.3rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.headerItem:hover {
+    background-color: #f8f0de;
+    border-radius: 45%;
+    box-shadow: 0.3rem;
+}
+
+#title {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+    font-size: 2rem;
+}
+#panierCount {
+    display: flex;
+    background-color: gold;
+    border: 1px solid black;
+    padding:0.5rem;
+    border-radius: 50%;
+    height: 0.4rem;
+    width: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    position:absolute;
+    top: 0.1rem;
+    left: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}

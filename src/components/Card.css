@@ -1,0 +1,28 @@
+.card {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 22vw;
+    margin: 4rem;
+    flex:0 0 auto;
+}
+.card p {
+    text-transform: uppercase;
+    text-align: center;
+}
+#explore {
+    text-decoration: underline;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.test {
+    background-color: hotpink;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
